@@ -1563,7 +1563,7 @@
             segwitAvailable: false,
             onSelect: function() {
                 network = bitcoinjs.bitcoin.networks.axe;
-                setHdCoin(0);
+                setHdCoin(4242);
             },
         },
         {
@@ -2429,6 +2429,14 @@
             onSelect: function() {
                 network = bitcoinjs.bitcoin.networks.zcash;
                 setHdCoin(133);
+            },
+        },
+        {
+            name: "XUEZ - Xuez",
+            segwitAvailable: false,
+            onSelect: function() {
+                network = bitcoinjs.bitcoin.networks.xuez;
+                setHdCoin(225);
             },
         },
     ]

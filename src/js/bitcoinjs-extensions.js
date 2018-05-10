@@ -114,9 +114,9 @@ bitcoinjs.bitcoin.networks.axe = {
     public: 0x0488b21e,
     private: 0x0488ade4
   },
-  pubKeyHash: 0x4B,
-  scriptHash: 0xCB, // TODO set this correctly
-  wif: 0xCB
+  pubKeyHash: 0x37,
+  scriptHash: 0x10, // TODO set this correctly
+  wif: 0xcc
 };
 
 bitcoinjs.bitcoin.networks.slimcoin = {
@@ -1198,4 +1198,15 @@ bitcoinjs.bitcoin.networks.zcash = {
   pubKeyHash: 0x1CB8,
   scriptHash: 0x1CBD,
   wif: 0x80,
+};
+
+bitcoinjs.bitcoin.networks.xuez = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x022d2533,
+    private: 0x0221312b
+  },
+  pubKeyHash: 0x4b,
+  scriptHash: 0x12,
+  wif: 0xd4
 };
